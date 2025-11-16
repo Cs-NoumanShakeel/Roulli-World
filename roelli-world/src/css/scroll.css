@@ -1,0 +1,27 @@
+/* Cards container scroll for mobile */
+@media screen and (max-width: 480px) {
+  .cards-container {
+    overflow-y: auto;
+    height: 700px;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 4rem;
+    scroll-behavior: smooth;
+  }
+  
+  /* Hide scrollbar */
+  .cards-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .cards-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Better gradient for mobile */
+@media screen and (max-width: 480px) {
+  .page4-container {
+    background: radial-gradient(ellipse 200% 120% at center, #0A1381 0%, #000211 40%, #000211 100%) !important;
+  }
+}
