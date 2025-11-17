@@ -13,9 +13,6 @@
 
 
 
-
-
-
 .circle-image {
   width: 350px;
   max-width: 100%;
@@ -37,7 +34,7 @@
 /* Bottom images positioning - complex calc values */
 .circle-bottom-images {
   position: absolute;
-  bottom: -53px;
+  /* bottom: -53px; */
   right: 35%;
   transform: translateX(50%);
   display: flex;
@@ -108,11 +105,11 @@
   }
 
   .circle-text h1 {
-    font-size: 115px;
+    /* font-size: 115px; */
   }
 
   .circle-text h3 {
-    font-size: 28px;
+    /* font-size: 28px; */
   }
 
   .circle-bottom-images {
@@ -187,11 +184,11 @@
   }
 
   .circle-text h1 {
-    font-size: 70px;
+    /* font-size: 70px; */
   }
 
   .circle-text h3 {
-    font-size: 20px;
+    /* font-size: 20px; */
   }
 
   .circle-bottom-images {
@@ -264,11 +261,11 @@
   }
 
   .circle-text h1 {
-    font-size: 50px;
+    /* font-size: 50px; */
   }
 
   .circle-text h3 {
-    font-size: 12px;
+    /* font-size: 12px; */
   }
   
   .circle-bottom-images {
