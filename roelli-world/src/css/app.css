@@ -356,7 +356,7 @@
   text-align: center;
   box-sizing: border-box;
   padding: 1rem;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* MAIN HEADING */
@@ -387,14 +387,14 @@
 .two-rows-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 2rem;
   width: 100%;
   max-width: 100%;
-  padding: 0 2rem;
+  /* padding: 0 2rem; */
   box-sizing: border-box;
   margin-bottom: 2rem;
-  margin-left: 40rem;
+  /* margin-left: 40rem; */
   margin-top: 2rem;
 }
 
@@ -441,7 +441,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   word-wrap: break-word;
-  margin: 0;
+  /* margin: 0; */
 }
 
 #UC-colored {
