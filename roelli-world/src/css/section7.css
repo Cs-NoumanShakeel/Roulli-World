@@ -1,0 +1,105 @@
+.section7 {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/sun.png") center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 200px;
+    box-sizing: border-box;
+}
+
+/* -------------------- HEADINGS -------------------- */
+
+.section7 h1 {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #F8FCA0;
+
+
+  padding: 10px 40px;
+  border-radius: 20px;
+
+  margin: 0;
+}
+
+/* -------------------- SUBTEXT -------------------- */
+
+.section7 p {
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Semi Bold;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 6px;
+  text-align: center;
+
+  color:#6EECE9;
+  padding: 12px 40px;
+  margin-top: 20px;
+  border-radius: 12px;
+
+}
+
+/* -------------------- DISCORD BUTTON -------------------- */
+.section7-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.discord-btn {
+  margin-top: 35px;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 100;
+  color: #6EECE9;
+  background: #022D3E;
+  padding: 10px 40px;
+  border-radius: 18px;
+  border: 3px solid #1BC6D2;
+  cursor: pointer;
+
+  box-shadow: 5px 10px 50px 0px #000000;
+  transition: 0.2s ease;
+  letter-spacing: 2px;
+}
+
+.discord-btn:hover {
+  transform: translateY(-3px);
+}
+
+
+
+.banner-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.banner-row img {
+  width: 180px;
+  height: auto;
+  border-radius: 20px;
+  border: none;
+
+  padding: 18px;
+
+  transition: 0.25s ease;
+  cursor: pointer;
+}
+
+.banner-row img:hover {
+  transform: scale(1.08);
+}

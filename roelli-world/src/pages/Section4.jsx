@@ -42,7 +42,7 @@ export default function Page4() {
         FUTURE GRID
       </h1>
 
-      <div className="cards-container flex flex-wrap justify-center gap-6 max-w-[1400px] mx-auto
+      <div className="cards-container flex flex-wrap justify-center gap-20 max-w-[1400px] mx-auto
                       max-[480px]:flex-nowrap max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4">
         {cards.map((card, index) => (
           <div
@@ -77,7 +77,7 @@ export default function Page4() {
               {card.title}
             </h2>
             <p
-              className={`absolute bottom-[60px] left-1/2 transform -translate-x-1/2 w-[calc(100%-2rem)] text-[#00d9ff] text-[0.95rem] md:text-[0.95rem] sm:text-[0.9rem] xs:text-[0.9rem] very-xs:text-[0.85rem]`}
+              className={`absolute bottom-[55px] left-1/2 transform -translate-x-1/2 w-[calc(100%-2rem)] text-[#00d9ff] text-[0.95rem] md:text-[0.95rem] sm:text-[0.9rem] xs:text-[0.9rem] very-xs:text-[0.85rem]`}
             >
               {card.description.map((line, i) => (
                 <span key={i} className="block">

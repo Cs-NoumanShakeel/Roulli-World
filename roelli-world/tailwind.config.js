@@ -2,14 +2,14 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx,css}",
   ],
   theme: {
     extend: {
       screens: {
-        'xs': {'max': '376px'},      // very small screens
-        'lte1024': {'max': '1024px'}, // less than or equal to 1024px
-        'gt1024': {'min': '1025px'},  // strictly greater than 1024px
+        xs: { max: "376px" },
+        lte1024: { max: "1024px" },
+        gt1024: { min: "1025px" },
       },
     },
   },

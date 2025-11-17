@@ -66,7 +66,7 @@ export default function Section6() {
         MEET THE HEROES
       </h1>
 
-      <div className="cards-container flex flex-wrap justify-center gap-6 max-w-[1400px] mx-auto max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4">
+      <div className="cards-container flex flex-wrap justify-center gap-20 max-w-[1400px] mx-auto max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4">
         {cards.map((card, i) => (
           <div
             key={i}
@@ -77,7 +77,7 @@ export default function Section6() {
                         xs:w-4/5 xs:max-w-[280px] xs:h-[350px]
                         transition-transform duration-300 hover:-translate-y-2`}
             style={{
-              // Narrow oval radial positioned at top-left mid area
+
               background: `radial-gradient(ellipse 50% 40% at 50% 35%, ${cardRadialColors[i]}, #000C14 90%)`,
               border: "2px solid #062F3D",
               boxShadow: "0 8px 30px rgba(0,0,0,0.45)",
@@ -154,7 +154,7 @@ export default function Section6() {
               {card.job}
             </h3>
 
-            {/* DESCRIPTION moved down so it doesn't overlap job */}
+
             <p
               className="absolute bottom-[25px] left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] text-[0.95rem] md:text-[0.9rem] sm:text-[0.9rem] xs:text-[0.85rem] leading-tight text-gray-500"
               style={{ zIndex: 2 }}
