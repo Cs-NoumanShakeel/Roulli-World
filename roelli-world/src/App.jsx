@@ -6,6 +6,8 @@ import Section6 from "./pages/Section6";
 import Section7 from "./pages/Section7";
 import "./css/app.css";
 import Section5 from "./pages/Section5";
+import Footer from "./pages/Footer";
+
 
 export default function App() {
   return (
@@ -17,6 +19,7 @@ export default function App() {
       <Section5/>
       <Section6/>
       <Section7/>
+      <Footer/>
     </div>
   );
 }

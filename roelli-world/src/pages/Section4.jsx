@@ -22,6 +22,7 @@ export default function Page4() {
       title: "COMMUNITY",
       description: ["Join players", "on a shared", "journey"]
     },
+     
   ];
 
   return (

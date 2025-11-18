@@ -71,10 +71,10 @@ export default function Section6() {
           <div
             key={i}
             className={`relative flex flex-col items-center rounded-xl p-6 text-center
-                        w-[240px] h-[400px]
-                        md:w-[220px] md:h-[380px]
+                        w-[240px] h-[380px]
+                        md:w-[220px] md:h-[350px]
                         sm:w-[calc(50%-0.5rem)] sm:min-w-[200px] sm:h-[360px]
-                        xs:w-4/5 xs:max-w-[280px] xs:h-[350px]
+                        xs:w-4/5 xs:max-w-[280px] xs:h-[340px]
                         transition-transform duration-300 hover:-translate-y-2`}
             style={{
 
@@ -156,7 +156,7 @@ export default function Section6() {
 
 
             <p
-              className="absolute bottom-[25px] left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] text-[0.95rem] md:text-[0.9rem] sm:text-[0.9rem] xs:text-[0.85rem] leading-tight text-gray-500"
+              className="absolute bottom-[25px] left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] text-[0.95rem] md:text-[0.9rem] sm:text-[0.9rem] xs:text-[0.85rem] leading-tight text-white"
               style={{ zIndex: 2 }}
             >
               {card.description.map((line, idx) => (
