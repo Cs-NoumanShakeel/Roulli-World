@@ -1,24 +1,26 @@
-import Section1 from "./pages/Section1";
-import Section2 from "./pages/Section2";
-import Section3 from "./pages/Section3";
-import Section4 from "./pages/Section4";
-import Section6 from "./pages/Section6";
-import Section7 from "./pages/Section7";
+import Home from "./Sections/Home";
+import Apps from "./Sections/Apps";
+import Reward from "./Sections/Reward";
+import Future from "./Sections/Future";
+import Heroes from "./Sections/Heroes";
+import Community from "./Sections/Community";
 import "./css/app.css";
-import Section5 from "./pages/Section5";
-import Footer from "./pages/Footer";
+import Brand from "./Sections/Brand";
+import Footer from "./Sections/Footer";
+import Arcade from "./Sections/Arcade";
 
 
 export default function App() {
   return (
     <div className="app-container">
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5/>
-      <Section6/>
-      <Section7/>
+      <Home />
+      <Apps />
+      <Reward />
+      <Future />
+       <Brand/>
+      <Heroes/>
+      <Arcade/>
+      <Community/>
       <Footer/>
     </div>
   );

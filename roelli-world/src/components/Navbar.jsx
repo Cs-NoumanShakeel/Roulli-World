@@ -9,7 +9,7 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="Roelli World Logo"
-            className="h-[25px] sm:h-[30px] md:h-[40px] lg:h-[50px] xl:h-[60px] w-auto"
+            className="h-[35px] sm:h-[50px] md:h-[60px] lg:h-[50px] xl:h-[60px] w-auto"
           />
         </div>
 
@@ -17,23 +17,23 @@ export default function Navbar() {
         <div className="flex items-center gap-4 sm:gap-3 md:gap-5 lg:gap-10 ml-auto shrink-0 flex-wrap">
           {/* Links */}
           <ul className="flex flex-wrap list-none m-0 p-0 gap-3 sm:gap-3 md:gap-5 lg:gap-10 shrink-0">
-            <li className="text-[#FFE229] text-[9px] sm:text-xs md:text-sm lg:text-base cursor-pointer whitespace-nowrap">
+            <li className="text-[#FFE229] text-xs sm:text-sm md:text-base lg:text-base cursor-pointer whitespace-nowrap">
               Home
             </li>
-            <li className="text-white text-[9px] sm:text-xs md:text-sm lg:text-base cursor-pointer whitespace-nowrap">
+            <li className="text-white text-xs sm:text-sm md:text-base lg:text-base cursor-pointer whitespace-nowrap">
               About us
             </li>
-            <li className="text-white text-[9px] sm:text-xs md:text-sm lg:text-base cursor-pointer whitespace-nowrap">
+            <li className="text-white text-xs sm:text-sm md:text-base lg:text-base cursor-pointer whitespace-nowrap">
               Contacts
             </li>
           </ul>
 
           {/* Language selector */}
-          <div className="flex items-center gap-1 sm:gap-2 md:gap-3 lg:gap-1 text-[10px] sm:text-xs md:text-sm lg:text-base text-white cursor-pointer flex-shrink-0">
+          <div className="flex items-center gap-1 sm:gap-2 md:gap-3 lg:gap-1 text-xs sm:text-sm md:text-base lg:text-base text-white cursor-pointer flex-shrink-0">
             <img
               src="./Flag.png"
               alt="English"
-              className="h-[10px] sm:h-[14px] md:h-4 lg:h-[18px] w-auto"
+              className="h-[12px] sm:h-[16px] md:h-5 lg:h-[18px] w-auto"
             />
             <span>En</span>
             <span>▼</span>
