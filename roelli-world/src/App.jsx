@@ -9,7 +9,6 @@ import Brand from "./Sections/Brand";
 import Footer from "./Sections/Footer";
 import Arcade from "./Sections/Arcade";
 
-
 export default function App() {
   return (
     <div className="app-container">
@@ -17,11 +16,11 @@ export default function App() {
       <Apps />
       <Reward />
       <Future />
-       <Brand/>
-      <Heroes/>
-      <Arcade/>
-      <Community/>
-      <Footer/>
+      <Brand />
+      <Heroes />
+      <Arcade />
+      <Community />
+      <Footer />
     </div>
   );
 }

@@ -7,7 +7,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
-            src="/logo.png"
+            src="/logo.webp"
             alt="Roelli World Logo"
             className="h-[35px] sm:h-[50px] md:h-[60px] lg:h-[50px] xl:h-[60px] w-auto"
           />
@@ -31,7 +31,7 @@ export default function Navbar() {
           {/* Language selector */}
           <div className="flex items-center gap-1 sm:gap-2 md:gap-3 lg:gap-1 text-xs sm:text-sm md:text-base lg:text-base text-white cursor-pointer flex-shrink-0">
             <img
-              src="./Flag.png"
+              src="./Flag.webp"
               alt="English"
               className="h-[12px] sm:h-[16px] md:h-5 lg:h-[18px] w-auto"
             />

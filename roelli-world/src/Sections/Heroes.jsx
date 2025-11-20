@@ -1,25 +1,33 @@
 export default function Heroes() {
   const cards = [
     {
-      img: "/Explorer.png",
+      img: "/Explorer.webp",
       name: "ROELLI",
       job: "Explorer",
-      description: ["An adventurous", "leader with a", "passion for discovery."],
+      description: [
+        "An adventurous",
+        "leader with a",
+        "passion for discovery.",
+      ],
     },
     {
-      img: "/Kiyana.png",
+      img: "/Kiyana.webp",
       name: "KIYANA",
       job: "Inventor",
-      description: ["A brilliant young", "mind always inven-", "ting new gadgets."],
+      description: [
+        "A brilliant young",
+        "mind always inven-",
+        "ting new gadgets.",
+      ],
     },
     {
-      img: "/K-Dip.png",
+      img: "/K-Dip.webp",
       name: "K-DIP",
       job: "Sidekick",
       description: ["A loyal companion", "who is always", "ready to help."],
     },
     {
-      img: "/Luna.png",
+      img: "/Luna.webp",
       name: "LUNA",
       job: "GUIDE",
       description: ["A mystical being", "with a gentle heart", "and wisdom."],
@@ -68,7 +76,7 @@ export default function Heroes() {
         /* On extra-small screens (xs / mobile portrait) make images noticeably smaller */
         @media (max-width: 480px) {
           .card-image {
-            max-height: 280px;
+            max-height: 3000px;
           }
         }
       `}</style>
@@ -79,7 +87,7 @@ export default function Heroes() {
           background: "linear-gradient(to right, #20D4F2, #00C6F9)",
           WebkitBackgroundClip: "text",
           color: "transparent",
-          fontStyle:'bold'
+          fontStyle: "bold",
         }}
       >
         MEET THE HEROES
@@ -115,7 +123,6 @@ export default function Heroes() {
               style={{
                 // Keep display:block via class, extra safety for some browsers:
                 display: "block",
-              
               }}
             />
 
@@ -130,9 +137,7 @@ export default function Heroes() {
             >
               <p
                 className="m-0 text-[0.95rem] md:text-[1rem] sm:text-[1.2rem] xs:text-[0.85rem] leading-tight"
-                style={{ lineHeight: 1.05, color:"#FFFFFF" }
-                        
-                    }
+                style={{ lineHeight: 1.05, color: "#FFFFFF" }}
               >
                 {card.description.map((line, idx) => (
                   <span key={idx} className="block">
@@ -144,7 +149,7 @@ export default function Heroes() {
           </div>
         ))}
       </div>
-        <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" />
+      {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
     </div>
   );
 }

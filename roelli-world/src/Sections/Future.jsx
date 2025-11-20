@@ -3,48 +3,52 @@ import "../css/app.css";
 export default function Future() {
   const cards = [
     {
-      img: "/PlayCircle.png",
+      img: "/PlayCircle.webp",
       title: "PLAY",
-      description: ["Dive into a world", "of fun and", "adventure"]
+      description: ["Dive into a world", "of fun and", "adventure"],
     },
     {
-      img: "/coin.png",
+      img: "/coin.webp",
       title: "EARN",
-      description: ["Conquer", "challenges and", "win rewards"]
+      description: ["Conquer", "challenges and", "win rewards"],
     },
     {
-      img: "/shopping.png",
+      img: "/shopping.webp",
       title: "SHOP",
-      description: ["Exchange", "coins for", "real-world items"]
+      description: ["Exchange", "coins for", "real-world items"],
     },
     {
-      img: "/person.png",
+      img: "/person.webp",
       title: "COMMUNITY",
-      description: ["Join players", "on a shared", "journey"]
+      description: ["Join players", "on a shared", "journey"],
     },
-     
   ];
 
   return (
-    <div 
+    <div
       className=" relative w-full max-w-full px-8 py-16 box-border text-white overflow-x-hidden
                     md:py-[10rem] md:px-6
                     sm:py-10 sm:px-4
                     xs:py-8 xs:px-4
                     max-[480px]:h-screen max-[480px]:overflow-y-auto max-[480px]:py-8"
       style={{
-        background: 'radial-gradient(circle at center, #0A1381, #000211, #000211)'
+        background:
+          "radial-gradient(circle at center, #0A1381, #000211, #000211)",
       }}
     >
-      <h1 className="text-center text-[#00d9ff] uppercase text-3xl tracking-[2px] mb-12
+      <h1
+        className="text-center text-[#00d9ff] uppercase text-3xl tracking-[2px] mb-12
                      md:text-2.5xl md:mb-10
                      sm:text-2xl sm:mb-8
-                     xs:text-xl xs:mb-6">
+                     xs:text-xl xs:mb-6"
+      >
         FUTURE GRID
       </h1>
 
-      <div className="cards-container flex flex-wrap justify-center gap-20 max-w-[1400px] mx-auto
-                      max-[480px]:flex-nowrap max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4">
+      <div
+        className="cards-container flex flex-wrap justify-center gap-20 max-w-[1400px] mx-auto
+                      max-[480px]:flex-nowrap max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
+      >
         {cards.map((card, index) => (
           <div
             key={index}
@@ -59,15 +63,17 @@ export default function Future() {
               src={card.img}
               alt={card.title}
               className={`object-contain
-                          ${index === 3 ? '' : 'mt-4'}
-                          ${index === 2 
-                            ? '!w-[90px] !h-[90px] md:!w-[80px] md:!h-[80px] xs:!w-[70px] xs:!h-[70px]' 
-                            : ''}
-                         ${
-                        index === 3
-                          ? 'mt-4 !w-[100px] !h-[100px] md:!w-[90px] md:!h-[90px] sm:!w-[90px] sm:!h-[90px] xs:!w-[80px] xs:!h-[80px]'
-                          : 'w-[100px] h-[100px] md:w-[90px] md:h-[90px] sm:w-[90px] sm:h-[90px] xs:w-[80px] xs:h-[80px]'
+                          ${index === 3 ? "" : "mt-4"}
+                          ${
+                            index === 2
+                              ? "!w-[90px] !h-[90px] md:!w-[80px] md:!h-[80px] xs:!w-[70px] xs:!h-[70px]"
+                              : ""
                           }
+                         ${
+                           index === 3
+                             ? "mt-4 !w-[100px] !h-[100px] md:!w-[90px] md:!h-[90px] sm:!w-[90px] sm:!h-[90px] xs:!w-[80px] xs:!h-[80px]"
+                             : "w-[100px] h-[100px] md:w-[90px] md:h-[90px] sm:w-[90px] sm:h-[90px] xs:w-[80px] xs:h-[80px]"
+                         }
                           `}
             />
 
@@ -89,7 +95,7 @@ export default function Future() {
           </div>
         ))}
       </div>
-       <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" />
+      {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
     </div>
   );
 }

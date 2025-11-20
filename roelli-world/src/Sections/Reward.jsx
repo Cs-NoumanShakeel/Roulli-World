@@ -9,7 +9,7 @@ export default function Reward() {
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom, #010012 30%, #010535 70%, #00000061 90%, rgba(255,255,255,0.05) 100%), url('/Disney.png')",
+            "linear-gradient(to bottom, #010012 30%, #010535 70%, #00000061 90%, rgba(255,255,255,0.05) 100%), url('/Disney.webp')",
         }}
         aria-hidden="true"
       />
@@ -22,11 +22,11 @@ export default function Reward() {
                      text-[20px] sm:text-[22px] md:text-[24px] lg:text-[28px]
                      leading-tight"
           style={{
-            fontFamily: 'Inter, sans-serif',
-            background: 'linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)',
-            WebkitBackgroundClip: 'text',
-            backgroundClip: 'text',
-            color: 'transparent',
+            fontFamily: "Inter, sans-serif",
+            background: "linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)",
+            WebkitBackgroundClip: "text",
+            backgroundClip: "text",
+            color: "transparent",
           }}
         >
           EARN REAL-WORLD
@@ -40,7 +40,7 @@ export default function Reward() {
           <div className="flex flex-col items-center space-y-6">
             <div className="flex flex-col items-center">
               <img
-                src="/starbucks.png"
+                src="/starbucks.webp"
                 alt="Starbucks"
                 className="w-[64px] h-[64px] object-cover rounded-full"
               />
@@ -53,7 +53,7 @@ export default function Reward() {
 
             <div>
               <img
-                src="/disney-logo.png"
+                src="/disney-logo.webp"
                 alt="Disney"
                 className="w-[84px] h-auto object-contain"
               />
@@ -63,14 +63,15 @@ export default function Reward() {
           {/* Column 2 (mobile): LC WAIKIKI, UCGIR */}
           <div className="flex flex-col items-center space-y-6">
             <div>
-              <h3 
+              <h3
                 className="font-extrabold text-lg"
                 style={{
-                  fontFamily: 'Inter, sans-serif',
-                  background: 'linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)',
-                  WebkitBackgroundClip: 'text',
-                  backgroundClip: 'text',
-                  color: 'transparent',
+                  fontFamily: "Inter, sans-serif",
+                  background:
+                    "linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
                 }}
               >
                 LC WAIKIKI
@@ -78,14 +79,15 @@ export default function Reward() {
             </div>
 
             <div>
-              <h3 
+              <h3
                 className="font-extrabold text-lg"
                 style={{
-                  fontFamily: 'Inter, sans-serif',
-                  background: 'linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)',
-                  WebkitBackgroundClip: 'text',
-                  backgroundClip: 'text',
-                  color: 'transparent',
+                  fontFamily: "Inter, sans-serif",
+                  background:
+                    "linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)",
+                  WebkitBackgroundClip: "text",
+                  backgroundClip: "text",
+                  color: "transparent",
                 }}
               >
                 UCGIR
@@ -102,7 +104,7 @@ export default function Reward() {
           {/* Left column */}
           <div className="col-start-1 row-start-1 flex flex-col items-center justify-center">
             <img
-              src="/starbucks.png"
+              src="/starbucks.webp"
               alt="Starbucks"
               className="w-[72px] h-[72px] object-cover rounded-full"
             />
@@ -110,14 +112,14 @@ export default function Reward() {
 
           {/* Center top: LC WAIKIKI (row 1 center) */}
           <div className="col-start-2 row-start-1 flex items-center justify-center">
-            <h3 
+            <h3
               className="font-extrabold text-3xl"
               style={{
-                fontFamily: 'Inter, sans-serif',
-                background: 'linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)',
-                WebkitBackgroundClip: 'text',
-                backgroundClip: 'text',
-                color: 'transparent',
+                fontFamily: "Inter, sans-serif",
+                background: "linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                color: "transparent",
               }}
             >
               LC WAIKIKI
@@ -131,14 +133,14 @@ export default function Reward() {
 
           {/* Left bottom: UCGIR (under Starbucks) */}
           <div className="col-start-1 row-start-2 flex items-center justify-center">
-            <h3 
+            <h3
               className="font-extrabold text-3xl"
               style={{
-                fontFamily: 'Inter, sans-serif',
-                background: 'linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)',
-                WebkitBackgroundClip: 'text',
-                backgroundClip: 'text',
-                color: 'transparent',
+                fontFamily: "Inter, sans-serif",
+                background: "linear-gradient(360deg, #20D4F2 0%, #00C6F9 100%)",
+                WebkitBackgroundClip: "text",
+                backgroundClip: "text",
+                color: "transparent",
               }}
             >
               UCGIR
@@ -148,7 +150,7 @@ export default function Reward() {
           {/* Center bottom: Disney (under LC WAIKIKI) */}
           <div className="col-start-2 row-start-2 flex items-center justify-center">
             <img
-              src="/disney-logo.png"
+              src="/disney-logo.webp"
               alt="Disney"
               className="w-[110px] h-auto object-contain"
             />
@@ -161,15 +163,14 @@ export default function Reward() {
         {/* Roelli logo spanning full width, always displayed under the grid */}
         <div className="mt-12 w-full flex justify-center">
           <img
-            src="/footer-logo.png"
+            src="/footer-logo.webp"
             alt="ROELLI WORLD"
             className="w-[220px] sm:w-[260px] md:w-[320px] lg:w-[320px] object-contain
                        drop-shadow-[0_12px_40px_rgba(241,149,14,0.45)]"
           />
         </div>
-        
       </div>
-       <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" />
+      {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
     </section>
   );
 }
