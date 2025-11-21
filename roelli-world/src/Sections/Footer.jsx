@@ -249,7 +249,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href=""
                 className="flex items-center justify-center hover:opacity-80 transition-opacity"
                 aria-label="YouTube"
               >
@@ -260,7 +260,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/roelliworld"
                 className="flex items-center justify-center hover:opacity-80 transition-opacity"
                 aria-label="Facebook"
               >
