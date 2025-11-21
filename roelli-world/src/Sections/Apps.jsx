@@ -78,7 +78,6 @@ export default function Apps() {
             "radial-gradient(circle, rgba(34,211,238,1) 35%, rgba(34,211,238,0) 100%)",
         }}
       />
-      {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
     </section>
   );
 }

@@ -1,0 +1,34 @@
+        .card-image {
+          display: block;
+          width: 100%;
+          height: auto; 
+          max-width: 100%;
+        }
+
+        /* On tablets / smaller desktops -> gently reduce image max-height so the card is shorter */
+        @media (max-width: 1024px) {
+          .card-image {
+            max-height: 280px; /* adjust to taste for md-sized screens */
+          }
+        }
+        @media (min-width:1024px){
+            .card-image{
+              max-height:300px;
+            
+            }
+        }  
+
+        /* On small screens (sm / mobile landscape) reduce more */
+        @media (max-width: 768px) {
+          .card-image {
+            max-height: 400px;
+            
+          }
+        }
+
+        /* On extra-small screens (xs / mobile portrait) make images noticeably smaller */
+        @media (max-width: 480px) {
+          .card-image {
+            max-height: 3000px;
+          }
+        }

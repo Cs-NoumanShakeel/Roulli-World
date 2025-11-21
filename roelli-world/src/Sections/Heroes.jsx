@@ -1,3 +1,5 @@
+import "./heroes.css";
+
 export default function Heroes() {
   const cards = [
     {
@@ -41,46 +43,6 @@ export default function Heroes() {
                  max-[480px]:h-screen max-[480px]:overflow-y-auto"
       style={{ background: "#000C14" }}
     >
-      {/* Local responsive rules to reduce card/image height on small screens
-          while preserving the full poster (no cropped artwork). */}
-      <style>{`
-        /* Default: image fills width and keeps full height (height:auto) */
-        .card-image {
-          display: block;
-          width: 100%;
-          height: auto; 
-          max-width: 100%;
-        }
-
-        /* On tablets / smaller desktops -> gently reduce image max-height so the card is shorter */
-        @media (max-width: 1024px) {
-          .card-image {
-            max-height: 280px; /* adjust to taste for md-sized screens */
-          }
-        }
-        @media (min-width:1024px){
-            .card-image{
-              max-height:300px;
-            
-            }
-        }  
-
-        /* On small screens (sm / mobile landscape) reduce more */
-        @media (max-width: 768px) {
-          .card-image {
-            max-height: 400px;
-            
-          }
-        }
-
-        /* On extra-small screens (xs / mobile portrait) make images noticeably smaller */
-        @media (max-width: 480px) {
-          .card-image {
-            max-height: 3000px;
-          }
-        }
-      `}</style>
-
       <h1
         className="text-center uppercase text-3xl tracking-[2px] mb-12 xl:text-5xl md:text-4.5xl sm:text-4xl xs:text-xl"
         style={{
@@ -112,22 +74,15 @@ export default function Heroes() {
               boxSizing: "border-box",
             }}
           >
-            {/* Image — width:100% + responsive max-height rules above.
-                Using max-height + height:auto ensures the image "zooms out"
-                on narrower cards (it becomes smaller) while never cropping the poster.
-                If the image's natural height is smaller than the max-height, it stays at natural size. */}
             <img
               src={card.img}
               alt={card.name}
               className="card-image "
               style={{
-                // Keep display:block via class, extra safety for some browsers:
                 display: "block",
               }}
             />
 
-            {/* Description: small padding so card height reduces along with image;
-                you can tweak px/py values to make cards even shorter on mobile. */}
             <div
               className="w-full px-3 py-3 text-white"
               style={{
@@ -156,7 +111,6 @@ export default function Heroes() {
             "radial-gradient(circle, rgba(34,211,238,1) 35%, rgba(34,211,238,0) 100%)",
         }}
       />
-      {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
     </div>
   );
 }

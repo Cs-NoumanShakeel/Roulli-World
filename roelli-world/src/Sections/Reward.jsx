@@ -170,7 +170,6 @@ export default function Reward() {
           />
         </div>
       </div>
-      {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
     </section>
   );
 }

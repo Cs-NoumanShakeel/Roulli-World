@@ -1,136 +1,8 @@
+import "./brand.css";
+
 export default function Brand() {
   return (
     <>
-      <style>{`
-        .section5-bg {
-          background-image: linear-gradient(to bottom, #010012 30%, #010535 70%, #00000061 90%, rgba(255,255,255,0.05) 100%), url("/Disney.webp");
-          background-position: center bottom;
-        }
-        @media (max-width: 1024px) {
-          .section5-bg {
-            background-position: center 80%;
-            min-height:50vh;
-          }
-           .starbucks-row{
-             position:relative;
-             right:-10px;
-          }    
-        }
-        @media (max-width: 768px) {
-          .section5-bg {
-            background-position: center bottom;
-            min-height: 30vh;
-            padding-top: 90px;
-            
-          }
-          .section-logo{
-            margin-top: 135px !important;
-          }
-          .section5-bg h1 {
-            font-size: 1.6rem !important;
-          }
-            .section5-bg p{
-              font-size: 1.4rem !important;
-            }
-              .section5-bg #ulker,
-          .section5-bg #getir {
-            width: 92px !important;
-          }
-           .section5-bg #mavi-bg {
-            width: 86px !important;
-          } 
-            .starbucks-row{
-               margin-top:3rem;
-             } 
-           .starbucks-logo{
-             width: 66px !important;
-           } 
-             .disney-logo{
-             width: 90px !important;
-           }   
-             .pinar-logo{
-             width: 96px !important;
-           } 
-             .section5-bg .section-logo img {
-            height: 65px !important;
-          }             
-
-        }
-        @media (max-width: 480px) {
-          .section5-bg {
-            background-image: linear-gradient(to bottom, #010012 0%, #010535 30%, rgba(0, 0, 0, 0.36) 100%, rgba(0, 0, 0, 0.3) 100%), url("/Disney.webp");
-            background-position: 52% 70%;
-            min-height: 70vh;
-            padding-top: 120px;
-          }
-           .starbucks-row{
-             position:relative;
-             right:7px;
-          }    
-          .section5-bg h1 {
-            font-size: 1.2rem !important;
-          }
-          .section5-bg p {
-            display: none !important;
-          }
-          .section5-bg img {
-            height: 32px !important;
-          }
-          .section5-bg #ulker,
-          .section5-bg #getir {
-            width: 72px !important;
-          }
-          .section5-bg #mavi {
-            width: 80px !important;
-            position:relative;
-            left:-10px;
-          }
-          .section5-bg #mavi-bg {
-            width: 64px !important;
-           
-          }
-          .section5-bg #LC-color,
-          .section5-bg #Mg-color {
-            font-size: 1.2rem !important;
-          }
-          .section5-bg .section-logo img {
-            height: 55px !important;
-          }
-          .section-logo{
-            margin-top: 75px !important;
-          }
-        }
-        @media (max-width: 360px) {
-          .section5-bg h1 {
-            font-size: 1rem !important;
-          }
-          .section5-bg img {
-            height: 28px !important;
-          }
-          .starbucks-row{
-             position:relative;
-             right:10px;
-          }  
-          .section5-bg #ulker,
-          .section5-bg #getir {
-            width: 63px !important;
-          }
-          .section5-bg #mavi {
-            width: 70px !important;
-          }
-          .section5-bg #mavi-bg {
-            width: 56px !important;
-          }
-          .section5-bg #LC-color,
-          .section5-bg #Mg-color {
-            font-size: 1rem !important;
-          }
-          .section5-bg .section-logo img {
-            height: 50px !important;
-          }
-        }
-      `}</style>
-
       <div
         className=" relative section5-bg w-full max-w-[100vw] min-h-[90vh] 
                       flex flex-col items-center justify-start 
@@ -140,7 +12,6 @@ export default function Brand() {
                       max-md:min-h-auto max-md:pb-[50px]
                       max-[480px]:min-h-[60vh] max-[480px]:pt-[100px] max-[480px]:pb-20"
       >
-        {/* ----------------------- H1 #1 ----------------------- */}
         <h1
           className="text-[2.3rem] font-medium m-0 font-['Inter',sans-serif]
                       leading-[120%] tracking-[0]
@@ -156,7 +27,6 @@ export default function Brand() {
           EARN REAL-WORLD
         </h1>
 
-        {/* ----------------------- H1 #2 ----------------------- */}
         <h1
           className="text-[2.3rem] font-medium m-0 font-['Inter',sans-serif]
                       leading-[120%] tracking-[0]
@@ -292,7 +162,6 @@ export default function Brand() {
               "radial-gradient(circle, rgba(34,211,238,1) 35%, rgba(34,211,238,0) 100%)",
           }}
         />
-        {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
       </div>
     </>
   );
