@@ -81,6 +81,13 @@ export default function Hero() {
           ENTER THE WORLD
         </button>
       </div>
+      <div
+        className="absolute inset-x-0 bottom-0 mx-auto h-1 w-[40%]"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(34,211,238,1) 35%, rgba(34,211,238,0) 100%)",
+        }}
+      />
       {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
     </div>
   );

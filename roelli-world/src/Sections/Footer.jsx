@@ -109,7 +109,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/roelliworld"
                 className="w-10 h-10 flex items-center justify-center hover:opacity-80 transition-opacity"
                 aria-label="Facebook"
               >
@@ -197,7 +197,7 @@ export default function Footer() {
                   className="text-[#F4F8FF] text-[17px] leading-[28px] hover:text-[#FFE100] transition-colors"
                   style={{ fontFamily: "Roboto" }}
                 >
-                  System requirements
+                  Terms & Conditions
                 </a>
               </li>
               <li>
@@ -206,7 +206,7 @@ export default function Footer() {
                   className="text-[#F4F8FF] text-[17px] leading-[28px] hover:text-[#FFE100] transition-colors"
                   style={{ fontFamily: "Roboto" }}
                 >
-                  Recommended devices
+                  Privacy Policy
                 </a>
               </li>
             </ul>
@@ -271,7 +271,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.tiktok.com/@roelliworld"
                 className="flex items-center justify-center hover:opacity-80 transition-opacity"
                 aria-label="TikTok"
               >
@@ -282,7 +282,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://instagram.com/roelliworld"
                 className="flex items-center justify-center hover:opacity-80 transition-opacity"
                 aria-label="Instagram"
               >
@@ -296,7 +296,13 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      {/* <div className="absolute inset-x-0 bottom-0 h-1 bg-cyan-400/90" /> */}
+      <div
+        className="absolute inset-x-0 bottom-0 mx-auto h-1 w-[40%]"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(34,211,238,1) 35%, rgba(34,211,238,0) 100%)",
+        }}
+      />{" "}
     </footer>
   );
 }

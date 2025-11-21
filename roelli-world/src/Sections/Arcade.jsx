@@ -1,6 +1,6 @@
 export default function Arcade() {
   return (
-    <div className="h-[60vh] sm:h-[160vh] bg-[#000223]">
+    <div className="relative h-[60vh] sm:h-[160vh] bg-[#000223]">
       {/* activate it on smaller devices */}
       <div className="block sm:hidden text-center px-2 pt-4">
         <h2 className="font-bold text-[14px] sm:text-lg md:text-2xl lg:text-3xl bg-gradient-to-t from-[#50EAFB] to-[#6FE0EF] text-transparent bg-clip-text">
@@ -130,6 +130,13 @@ export default function Arcade() {
           }}
         ></div>
       </div>
+      <div
+        className="absolute inset-x-0 bottom-0 mx-auto h-1 w-[40%]"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(34,211,238,1) 35%, rgba(34,211,238,0) 100%)",
+        }}
+      />
     </div>
   );
 }

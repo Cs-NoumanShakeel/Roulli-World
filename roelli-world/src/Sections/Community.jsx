@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Community() {
   return (
-    <div className="h-[60vh] sm:h-[160vh] bg-black">
+    <div className="relative h-[60vh] sm:h-[160vh] bg-black">
       <div className="h-[50vh] sm:h-[150vh] flex justify-center align-center">
         <div
           className="flex  "
@@ -146,6 +146,13 @@ export default function Community() {
         </div>
       </div>
       <div className="bg-black"></div>
+      <div
+        className="absolute inset-x-0 bottom-0 mx-auto h-1 w-[40%]"
+        style={{
+          background:
+            "radial-gradient(circle, rgba(34,211,238,1) 35%, rgba(34,211,238,0) 100%)",
+        }}
+      />
     </div>
   );
 }
